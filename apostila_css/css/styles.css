@@ -1,0 +1,58 @@
+/* arquivo styles.css */
+/* selecionamos os elementos h1 aqui*/
+/* h1 {
+  color: green;
+} */
+
+/* aqui selecionamos os elementos p */
+/* p {
+  color: blue;
+} */
+
+/* strong {
+  color: red;
+} */
+
+#titulo {
+  color: green;
+  text-align: center;
+}
+
+/* somente elementos do tipo p que tenham id igual a descricao */
+p#descricao {
+  color: blue;
+}
+
+p.promocao {
+  text-align: center;
+  background-color: lightgreen;
+}
+
+.nova {
+  color: white;
+}
+
+/* todo p que tenha a classe final-pagina e cujo id seja rodape */
+p.final-pagina#rodape {
+  background-color: lightgray;
+  text-align: center;
+}
+
+/* separamos os seletores usando uma vírgula. Ela faz um papel de "ou lógico */
+.curso,
+.novo-curso {
+  background-color: aliceblue;
+}
+
+/* veja a cor de fundo repetida para que possamos especificar uma regra não aplicável aos demais cursos */
+.novo-curso {
+  color: red;
+}
+
+.curso,
+.novo-curso,
+#contato {
+  /* padding: espaço entre o conteúdo e a borda */
+  padding: 12px;
+  border: 1px solid lightgray;
+}

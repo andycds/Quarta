@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/cascata_especificidade.css">
+    <title>Cascata e especificidade</title>
+    <style>
+        /* main é um seletor e article é outro. main tem especificidade 1 (pois tem só um
+tipo) e article tem especificidade 1 (pois também tem somente um tipo) */
+        main,
+        article {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="principal">
+        </mainclass>
+        <article>
+            <p id="titulo" class="descricao">
+                Algoritmo de especificidade do CSS
+            </p>
+        </article>
+    </main>
+</body>
+
+</html>
